@@ -1,22 +1,22 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "abrardev99/laravel-package-learning",
+    "description": "This is my package LaravelPackageLearning",
     "keywords": [
-        ":vendor_name",
+        "abrardev99",
         "laravel",
-        "package_slug"
+        "laravel-package-learning"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/abrardev99/laravel-package-learning",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Abrar Ahmad",
+            "email": "abrar.dev99@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^7.4",
         "spatie/laravel-package-tools": "^1.4.3",
         "illuminate/contracts": "^8.37"
     },
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Abrardev99\\LaravelPackageLearning\\": "src",
+            "Abrardev99\\LaravelPackageLearning\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Abrardev99\\LaravelPackageLearning\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Abrardev99\\LaravelPackageLearning\\LaravelPackageLearningServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "LaravelPackageLearning": "Abrardev99\\LaravelPackageLearning\\LaravelPackageLearningFacade"
             }
         }
     },
